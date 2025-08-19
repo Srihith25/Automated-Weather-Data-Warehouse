@@ -1,0 +1,265 @@
+2025-08-11 02:52:26 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 02:52:26 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 02:52:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 02:52:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 02:52:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 02:52:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 02:52:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 02:52:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 02:52:31 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 02:52:32 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 02:52:33 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 02:52:33 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 02:52:34 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 02:52:34 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 02:52:34 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:35 | ERROR    | __main__:run_etl:135 - Error loading data for London: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:36 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:52:36 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 02:55:24 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 02:55:24 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 02:55:24 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 02:55:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 02:55:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 02:55:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 02:55:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 02:55:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 02:55:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 02:55:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 02:55:31 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 02:55:32 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 02:55:33 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 02:55:33 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:33 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:34 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:34 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:34 | ERROR    | __main__:run_etl:135 - Error loading data for London: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:34 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 02:55:34 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 03:27:29 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 03:27:29 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 03:27:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 03:27:31 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 03:27:32 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 03:27:33 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 03:27:33 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 03:27:34 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 03:27:35 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 03:27:35 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 03:27:36 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 03:27:37 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 03:27:37 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 03:27:37 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:38 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:39 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:39 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:39 | ERROR    | __main__:run_etl:135 - Error loading data for London: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:39 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:27:39 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 03:53:24 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 03:53:25 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 03:53:25 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 03:53:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 03:53:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 03:53:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 03:53:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 03:53:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 03:53:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 03:53:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 03:53:31 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 03:53:32 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 03:53:32 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 03:53:32 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:33 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:34 | ERROR    | __main__:run_etl:135 - Error loading data for London: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:34 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-11 03:53:34 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 04:00:15 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 04:00:15 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 04:00:15 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 04:00:16 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 04:00:17 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 04:00:18 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 04:00:18 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 04:00:19 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 04:00:20 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 04:00:21 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 04:00:21 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 04:00:22 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 04:00:23 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 04:00:23 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for London: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: 'DatabaseConnection' object has no attribute 'connection'
+2025-08-11 04:00:23 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 04:05:23 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-11 04:05:24 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-11 04:05:24 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 04:05:25 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 04:05:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 04:05:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 04:05:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 04:05:28 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 04:05:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 04:05:29 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 04:05:30 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 04:05:31 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 04:05:32 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 04:05:32 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-11 04:05:32 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:32 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:32 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:33 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:33 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:33 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:34 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:34 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:34 | ERROR    | __main__:run_etl:135 - Error loading data for London: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:34 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: 'list' object has no attribute 'fetchone'
+2025-08-11 04:05:34 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records
+2025-08-11 04:07:20 | INFO     | __main__:run_etl:75 - Starting weather ETL process
+2025-08-11 04:07:20 | INFO     | __main__:run_etl:81 - Starting extraction phase
+2025-08-11 04:07:20 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 04:07:21 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 04:07:22 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 04:07:23 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 04:07:24 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 04:07:24 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 04:07:25 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 04:07:26 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 04:07:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 04:07:27 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 04:07:28 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 04:07:28 | INFO     | __main__:run_etl:91 - Starting load phase
+2025-08-11 04:07:29 | INFO     | __main__:run_etl:130 - Loaded data for Bellevue
+2025-08-11 04:07:29 | INFO     | __main__:run_etl:130 - Loaded data for Ames
+2025-08-11 04:07:30 | INFO     | __main__:run_etl:130 - Loaded data for Hyderabad
+2025-08-11 04:07:31 | INFO     | __main__:run_etl:130 - Loaded data for Berlin
+2025-08-11 04:07:31 | INFO     | __main__:run_etl:130 - Loaded data for Sydney
+2025-08-11 04:07:32 | INFO     | __main__:run_etl:130 - Loaded data for Delhi
+2025-08-11 04:07:33 | INFO     | __main__:run_etl:130 - Loaded data for Cape Town
+2025-08-11 04:07:33 | INFO     | __main__:run_etl:130 - Loaded data for Rio de Janeiro
+2025-08-11 04:07:34 | INFO     | __main__:run_etl:130 - Loaded data for London
+2025-08-11 04:07:34 | INFO     | __main__:run_etl:130 - Loaded data for Jakarta
+2025-08-11 04:07:34 | SUCCESS  | __main__:run_etl:135 - ETL complete. Loaded 10 records
+2025-08-11 18:21:16 | INFO     | __main__:run_etl:75 - Starting weather ETL process
+2025-08-11 18:21:16 | INFO     | __main__:run_etl:81 - Starting extraction phase
+2025-08-11 18:21:16 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 18:21:18 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 18:21:18 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 18:21:19 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 18:21:20 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 18:21:21 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 18:21:21 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 18:21:22 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 18:21:23 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 18:21:23 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 18:21:24 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 18:21:24 | INFO     | __main__:run_etl:91 - Starting load phase
+2025-08-11 18:21:24 | INFO     | __main__:run_etl:130 - Loaded data for Bellevue
+2025-08-11 18:21:24 | INFO     | __main__:run_etl:130 - Loaded data for Ames
+2025-08-11 18:21:25 | INFO     | __main__:run_etl:130 - Loaded data for Hyderabad
+2025-08-11 18:21:25 | INFO     | __main__:run_etl:130 - Loaded data for Berlin
+2025-08-11 18:21:25 | INFO     | __main__:run_etl:130 - Loaded data for Sydney
+2025-08-11 18:21:25 | INFO     | __main__:run_etl:130 - Loaded data for Delhi
+2025-08-11 18:21:26 | INFO     | __main__:run_etl:130 - Loaded data for Cape Town
+2025-08-11 18:21:26 | INFO     | __main__:run_etl:130 - Loaded data for Rio de Janeiro
+2025-08-11 18:21:26 | INFO     | __main__:run_etl:130 - Loaded data for London
+2025-08-11 18:21:27 | INFO     | __main__:run_etl:130 - Loaded data for Jakarta
+2025-08-11 18:21:27 | SUCCESS  | __main__:run_etl:135 - ETL complete. Loaded 10 records
+2025-08-11 22:23:56 | INFO     | __main__:run_etl:75 - Starting weather ETL process
+2025-08-11 22:23:57 | INFO     | __main__:run_etl:81 - Starting extraction phase
+2025-08-11 22:23:57 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-11 22:23:59 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-11 22:23:59 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-11 22:24:00 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-11 22:24:01 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-11 22:24:02 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-11 22:24:02 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-11 22:24:03 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-11 22:24:04 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-11 22:24:05 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-11 22:24:06 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-11 22:24:06 | INFO     | __main__:run_etl:91 - Starting load phase
+2025-08-11 22:24:07 | INFO     | __main__:run_etl:130 - Loaded data for Bellevue
+2025-08-11 22:24:07 | INFO     | __main__:run_etl:130 - Loaded data for Ames
+2025-08-11 22:24:08 | INFO     | __main__:run_etl:130 - Loaded data for Hyderabad
+2025-08-11 22:24:08 | INFO     | __main__:run_etl:130 - Loaded data for Berlin
+2025-08-11 22:24:09 | INFO     | __main__:run_etl:130 - Loaded data for Sydney
+2025-08-11 22:24:09 | INFO     | __main__:run_etl:130 - Loaded data for Delhi
+2025-08-11 22:24:10 | INFO     | __main__:run_etl:130 - Loaded data for Cape Town
+2025-08-11 22:24:10 | INFO     | __main__:run_etl:130 - Loaded data for Rio de Janeiro
+2025-08-11 22:24:11 | INFO     | __main__:run_etl:130 - Loaded data for London
+2025-08-11 22:24:12 | INFO     | __main__:run_etl:130 - Loaded data for Jakarta
+2025-08-11 22:24:12 | SUCCESS  | __main__:run_etl:135 - ETL complete. Loaded 10 records

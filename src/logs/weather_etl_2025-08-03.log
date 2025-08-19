@@ -1,0 +1,35 @@
+2025-08-03 00:56:53 | INFO     | __main__:run_etl:77 - Starting weather ETL process
+2025-08-03 00:56:53 | INFO     | __main__:run_etl:83 - Starting extraction phase
+2025-08-03 00:56:53 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-03 00:56:55 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-03 00:56:55 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-03 00:56:56 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-03 00:56:57 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-03 00:56:57 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-03 00:56:58 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-03 00:56:59 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-03 00:56:59 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-03 00:57:00 | INFO     | extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-03 00:57:01 | INFO     | extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-03 00:57:01 | INFO     | __main__:run_etl:93 - Starting load phase
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Bellevue: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Ames: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Hyderabad: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Berlin: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Sydney: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:01 | ERROR    | __main__:run_etl:135 - Error loading data for Delhi: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:02 | ERROR    | __main__:run_etl:135 - Error loading data for Cape Town: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:02 | ERROR    | __main__:run_etl:135 - Error loading data for Rio de Janeiro: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:02 | ERROR    | __main__:run_etl:135 - Error loading data for London: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:02 | ERROR    | __main__:run_etl:135 - Error loading data for Jakarta: (psycopg2.InterfaceError) cursor already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-08-03 00:57:02 | SUCCESS  | __main__:run_etl:137 - ETL complete. Loaded 0 records

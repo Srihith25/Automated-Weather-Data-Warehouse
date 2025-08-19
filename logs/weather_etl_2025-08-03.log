@@ -1,0 +1,17 @@
+2025-08-03 00:45:33 | INFO     | __main__:test_single_city:12 - Testing single city extraction: Bellevue
+2025-08-03 00:45:33 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-03 00:45:34 | SUCCESS  | __main__:test_single_city:16 - Successfully extracted data:
+2025-08-03 00:45:34 | INFO     | __main__:test_all_cities:27 - Testing extraction for all cities
+2025-08-03 00:45:34 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Bellevue
+2025-08-03 00:45:35 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Ames
+2025-08-03 00:45:36 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Hyderabad
+2025-08-03 00:45:37 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Berlin
+2025-08-03 00:45:37 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Sydney
+2025-08-03 00:45:38 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Delhi
+2025-08-03 00:45:39 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Cape Town
+2025-08-03 00:45:40 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Rio de Janeiro
+2025-08-03 00:45:40 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for London
+2025-08-03 00:45:41 | INFO     | src.extract.open_meteo:get_current_weather:59 - Fetching weather data for Jakarta
+2025-08-03 00:45:42 | INFO     | src.extract.open_meteo:extract_all_cities:145 - Successfully extracted data for 10 cities
+2025-08-03 00:45:42 | INFO     | __main__:test_all_cities:30 - Extracted data for 10 cities:
+2025-08-03 00:45:42 | INFO     | __main__:test_all_cities:47 - Sample data saved to data/weather_extract_sample.json

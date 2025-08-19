@@ -1,0 +1,102 @@
+[
+  {
+    "city": "Bellevue",
+    "country": "USA",
+    "latitude": 47.616787,
+    "longitude": -122.210236,
+    "temperature_celsius": 16.2,
+    "temperature_fahrenheit": 61.16,
+    "recorded_at": "2025-08-02 22:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Ames",
+    "country": "USA",
+    "latitude": 42.022522,
+    "longitude": -93.627495,
+    "temperature_celsius": 16.0,
+    "temperature_fahrenheit": 60.8,
+    "recorded_at": "2025-08-03 00:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Hyderabad",
+    "country": "India",
+    "latitude": 17.375,
+    "longitude": 78.5,
+    "temperature_celsius": 29.3,
+    "temperature_fahrenheit": 84.74,
+    "recorded_at": "2025-08-03 11:15:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "latitude": 52.52,
+    "longitude": 13.4,
+    "temperature_celsius": 15.9,
+    "temperature_fahrenheit": 60.62,
+    "recorded_at": "2025-08-03 07:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "latitude": -33.75,
+    "longitude": 151.125,
+    "temperature_celsius": 14.8,
+    "temperature_fahrenheit": 58.64,
+    "recorded_at": "2025-08-03 15:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Delhi",
+    "country": "India",
+    "latitude": 28.75,
+    "longitude": 77.125,
+    "temperature_celsius": 28.5,
+    "temperature_fahrenheit": 83.3,
+    "recorded_at": "2025-08-03 11:15:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "latitude": -34.0,
+    "longitude": 18.5,
+    "temperature_celsius": 16.1,
+    "temperature_fahrenheit": 60.98,
+    "recorded_at": "2025-08-03 07:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "latitude": -22.75,
+    "longitude": -43.0,
+    "temperature_celsius": 15.9,
+    "temperature_fahrenheit": 60.62,
+    "recorded_at": "2025-08-03 02:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "London",
+    "country": "UK",
+    "latitude": 51.5,
+    "longitude": -0.120000124,
+    "temperature_celsius": 14.0,
+    "temperature_fahrenheit": 57.2,
+    "recorded_at": "2025-08-03 06:45:00",
+    "api_source": "open_meteo"
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "latitude": -6.25,
+    "longitude": 106.875,
+    "temperature_celsius": 32.7,
+    "temperature_fahrenheit": 90.86,
+    "recorded_at": "2025-08-03 12:45:00",
+    "api_source": "open_meteo"
+  }
+]
